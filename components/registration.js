@@ -11,7 +11,7 @@ const registration = () => {
                         <div className={styles.registrationBorder}></div>
                         <div className={styles.registrationBorder}></div>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde possimus odio sequi in eveniet minima.</p>
+                    <p>Lorems ipsum dolor sit amet consectetur, adipisicing elit. Unde possimus odio sequi in eveniet minima.</p>
 
                     <form action='#'>
 
