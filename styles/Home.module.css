@@ -2,6 +2,82 @@
   margin: 0px;
 }
 
+.swipers {
+  margin: 50px 0;
+}
+
+.swiper {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #0000009e;
+  backdrop-filter: blur(3px);
+}
+
+.swipers h1 {
+  text-align: center;
+  margin: 50px 0;
+  font-family: sans-serif;
+  color: rgb(1, 1, 39);
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 90%;
+  width: 90%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.content button {
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  top: 20px;
+  font-size: 40px;
+  background-color: transparent;
+  color: white;
+  right: 100px;
+
+}
+
+.swipGallery {
+  display: flex;
+}
+
+.swipGallery h2 {
+  display: grid;
+  justify-content: center;
+  margin: 0;
+}
+
+.swiperImg {
+  width: unset !important;
+  height: unset !important;
+  max-width: 100%;
+}
+
+.swipImage {
+  margin-top: 30px;
+  margin-left: 150px;
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.swipVideo {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
 /* .navbar {
   position: sticky;
   top: 0px;
@@ -1395,7 +1471,7 @@
 
 .organization {
   text-align: center;
-  background-color: rgb(213, 210, 210);
+  background-color: rgb(247, 238, 238);
   padding: 50px 0;
   padding-bottom: 60px;
 }

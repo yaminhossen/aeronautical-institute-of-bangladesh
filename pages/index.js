@@ -14,6 +14,7 @@ import Reviews from '@/components/reviews'
 import Registration from '@/components/registration'
 import Gallery from '@/components/gallery'
 import Organization from '@/components/organization'
+import Swiper from '@/components/swiper'
 import Location from '@/components/location'
 import Events from '@/components/events'
 import { Inter } from 'next/font/google'
@@ -39,7 +40,7 @@ export default function Home() {
         <Reviews></Reviews>
         <Events></Events>
         <Registration></Registration>
-        <Gallery></Gallery>
+        <Swiper></Swiper>
         <Organization></Organization>
         <Location></Location>
       </div>
