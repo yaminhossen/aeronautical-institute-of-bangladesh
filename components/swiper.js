@@ -22,7 +22,7 @@ const swiper = () => {
     };
 
     return (
-        <div className={styles.swipers}>
+        <div id='gallery' className={styles.swipers}>
             <h1>Gallery</h1>
             {selectedImage && (
                 <div className={styles.swiper}>

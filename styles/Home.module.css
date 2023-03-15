@@ -1,5 +1,6 @@
 .sagir {
   margin: 0px;
+
 }
 
 .swipers {
@@ -1558,6 +1559,7 @@
   align-items: center;
   justify-content: center;
   padding: 10px 0;
+  scroll-behavior: smooth;
 }
 
 .footerInfo {

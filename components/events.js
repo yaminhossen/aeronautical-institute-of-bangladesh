@@ -3,7 +3,7 @@ import styles from '@/styles/Home.module.css'
 
 const events = () => {
     return (
-        <section className={styles.noticeSection}>
+        <section id='notice' className={styles.noticeSection}>
             <h2 className={styles.noticeTitle}>Notice</h2>
             <div className={styles.noticeBoard}>
                 <div className={styles.noticeHeading}>

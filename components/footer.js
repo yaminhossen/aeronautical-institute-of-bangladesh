@@ -20,11 +20,11 @@ const Footer = () => {
                 </div>
                 <div className={styles.usefullLinks}>
                     <h3>Useful Link</h3>
-                    <p><a href="#">About Us</a></p>
-                    <p><a href="#">Departments</a></p>
-                    <p><a href="#">Gallery</a></p>
-                    <p><a href="#">Courses</a></p>
-                    <p><a href="#">Events</a></p>
+                    <p><a href="#intro">About Us</a></p>
+                    <p><a href="#dept">Departments</a></p>
+                    <p><a href="#gallery">Gallery</a></p>
+                    <p><a href="#course">Courses</a></p>
+                    <p><a href="#notice">Events</a></p>
 
                 </div>
                 <div>

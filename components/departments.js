@@ -8,7 +8,7 @@ const allDepartment = [
 ]
 const departments = () => {
     return (
-        <section className={styles.departmentSection}>
+        <section id='dept' className={styles.departmentSection}>
 
             <h1>Department of AIB</h1>
             <div className={styles.departmentBorders}>

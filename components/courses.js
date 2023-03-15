@@ -9,7 +9,7 @@ const arrays = [
 ]
 const courses = () => {
     return (
-        <section className={styles.coursesSection} >
+        <section id='course' className={styles.coursesSection} >
             <div className={styles.coursesDetail}>
                 <div className={styles.courseInfo}>
                     <h1>Popular Courses</h1>

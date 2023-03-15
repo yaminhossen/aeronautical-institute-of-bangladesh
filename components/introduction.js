@@ -3,7 +3,7 @@ import styles from '@/styles/Home.module.css'
 
 const introduction = () => {
     return (
-        <section className={styles.introSection}>
+        <section id='intro' className={styles.introSection}>
             <div className={styles.intro}>
                 <div className={styles.image2}>
                     <img src="/Aib4.png" alt="" />
