@@ -54,7 +54,7 @@ const swiper = () => {
                     </div>
                 </div>
                 <div>
-                    <h2>Video</h2>
+                    <h2>Videos</h2>
                     <div className={styles.swipVideo}>
 
                         {images.slice(0, 3).map((image, index) => (
