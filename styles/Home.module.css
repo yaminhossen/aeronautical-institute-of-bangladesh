@@ -222,8 +222,8 @@
   width: full;
   display: flex;
   flex-direction: column;
-  text-align: left;
   justify-content: center;
+  text-align: left;
   padding-top: 50px;
   margin-left: 40px;
 }
@@ -1089,8 +1089,9 @@
 
 .noticeNews {
   display: flex;
-  /* align-items: center; */
-  justify-content: start;
+  align-items: center;
+  /* justify-content: start; */
+  justify-content: flex-start;
   margin-bottom: 10px;
   box-shadow: rgb(226, 226, 227) 1px 2px 30px .1px;
 
@@ -1135,7 +1136,6 @@
 }
 
 .noticeTail {
-  /* border: 2px solid red; */
   margin: 0;
   padding: 0 10px;
 }
@@ -1152,7 +1152,7 @@
 
 .noticeButton {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   width: 80%;
   margin-top: 40px;
