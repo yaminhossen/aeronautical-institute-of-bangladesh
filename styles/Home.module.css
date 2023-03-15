@@ -763,6 +763,29 @@
   transition-duration: .5s;
 }
 
+.coursesButton {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.coursesBtn {
+  border: 2px solid rgb(5, 1, 53);
+  padding: 15px 25px;
+  margin-top: 20px;
+  color: rgb(2, 2, 51);
+  border-radius: 5px;
+  font-family: sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  transition-duration: .5s;
+}
+
+.coursesBtn:hover {
+  background-color: rgb(2, 2, 59);
+  color: whitesmoke;
+}
+
 .rewardSection {
 
   background-image: url('../public/airplane.jpg');
@@ -924,6 +947,29 @@
 .department:hover .depImg {
   transform: scale(1.5);
   transition: ease-in-out .9s;
+}
+
+.departmentButton {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+}
+
+.departmentBtn {
+  border: 2px solid rgb(5, 1, 53);
+  padding: 15px 25px;
+  margin-top: 20px;
+  color: rgb(2, 2, 51);
+  border-radius: 5px;
+  font-family: sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  transition-duration: .5s;
+}
+
+.departmentBtn:hover {
+  background-color: rgb(2, 2, 59);
+  color: whitesmoke;
 }
 
 .reviewsSection {
@@ -1271,6 +1317,20 @@
   align-items: center;
   background-color: rgba(224, 226, 241, 0.944);
   padding: 100px 0;
+}
+
+.gallerySection h1 {
+  font-family: sans-serif;
+  /* text-transform: uppercase; */
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(1, 1, 47);
+}
+
+.gallerySection h2 {
+  font-family: sans-serif;
+  font-size: 22px;
+  color: rgb(1, 1, 47);
 }
 
 .gallery {

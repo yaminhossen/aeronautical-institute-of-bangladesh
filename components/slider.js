@@ -6,7 +6,6 @@ const slider = () => {
     return (
         <div className={styles.slider}>
 
-            {/* <img src="/slider-2.jpg" alt="Slide 1" /> */}
             <div className={styles.sliderr}>
                 <div className={styles.infoBanner}>
                     <div>

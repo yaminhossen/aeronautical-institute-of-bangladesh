@@ -31,7 +31,9 @@ const departments = () => {
                         <h3>{department.name}</h3>
                     </div>)}
             </div>
-
+            <div className={styles.departmentButton}>
+                <a href='#' className={styles.departmentBtn}>All department</a>
+            </div>
         </section>
     );
 };

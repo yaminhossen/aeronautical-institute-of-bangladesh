@@ -17,17 +17,17 @@ const navbar = () => {
             <section className={styles.navbarUp}>
                 <div className={styles.navinfobar}>
                     <div className={styles.navinfo}>
-                        <h4><span className={styles.icon} ><FontAwesomeIcon icon="fa-solid fa-map-location" /></span><span>ADDRESS</span></h4>
+                        <h4><span className={styles.icon} ><i class="fa-solid fa-map-location"></i></span><span>ADDRESS</span></h4>
                         <p>Bangladesh, Dhaka-1230</p>
                     </div>
                     <div className={styles.navBorder}></div>
                     <div className={styles.navinfo}>
-                        <h4><span className={styles.icon} ><FontAwesomeIcon icon="fa-solid fa-envelope-open" /></span><span>EMAIL</span></h4>
+                        <h4><span className={styles.icon} ><i class="fa-solid fa-envelope-open"></i></span><span>EMAIL</span></h4>
                         <p>aib.info08@gmail.com</p>
                     </div>
                     <div className={styles.navBorder}></div>
                     <div className={styles.navinfo}>
-                        <h4><span className={styles.icon} ><FontAwesomeIcon icon="fa-solid fa-phone-flip" /></span><span>CONTUCT</span></h4>
+                        <h4><span className={styles.icon} ><i class="fa-solid fa-phone-flip"></i></span><span>CONTUCT</span></h4>
                         <p>+88 02 028991085</p>
                     </div>
                 </div>

@@ -25,6 +25,9 @@ const courses = () => {
                         array={array}
                     ></Course>)}
                 </div>
+                <div className={styles.coursesButton}>
+                    <a href='#' className={styles.coursesBtn}>All courses</a>
+                </div>
             </div>
         </section>
     );
