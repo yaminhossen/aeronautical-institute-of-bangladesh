@@ -50,12 +50,12 @@ const navbar = () => {
                 </div>
                 <div className={styles.linkbar}>
                     <div className={styles.link}>
-                        <p className={styles.ancor}>Home</p>
-                        <p className={styles.ancor}>About Us</p>
-                        <p className={styles.ancor}>CAAB Part-147</p>
-                        <p className={styles.ancor}>BTEB Diploma</p>
-                        <p className={styles.ancor}>Special Course</p>
-                        <p className={styles.ancor}>Contuct</p>
+                        <a href="/" className={styles.ancor}>Home</a>
+                        <a href="#intro" className={styles.ancor}>About Us</a>
+                        <a href="#" className={styles.ancor}>CAAB Part-147</a>
+                        <a href="#" className={styles.ancor}>BTEB Diploma</a>
+                        <a href="#feature" className={styles.ancor}>Special Course</a>
+                        <a href="#contuct" className={styles.ancor}>Contuct</a>
                     </div>
                     <p className={styles.aicon} ><FontAwesomeIcon icon="fa-solid fa-magnifying-glass" /></p>
                 </div>

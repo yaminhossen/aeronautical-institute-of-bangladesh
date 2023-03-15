@@ -3,7 +3,7 @@ import styles from '@/styles/Home.module.css'
 
 const featured = () => {
     return (
-        <section className={styles.featured}>
+        <section id='feature' className={styles.featured}>
             <div className={styles.featuredDetail}>
                 <div className={styles.featuredImage}>
                     <img src="/airplane2.jpg" alt="" />

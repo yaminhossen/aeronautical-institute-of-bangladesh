@@ -12,10 +12,11 @@ const Footer = () => {
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quaerat dicta magnam similique eius assumenda consequatur.</p>
                     <div>
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-youtube"></i>
-                        <i class="fa-brands fa-linkedin"></i>
+                        <a target='blank' href="https://www.facebook.com/AIB.bd"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a target='blank' href="https://www.youtube.com/channel/UCiPLq9UBO3NM2eX0dgCMlgA"><i class="fa-brands fa-youtube"></i></a>
+
+                        <a target='blank' href="https://www.linkedin.com/company/aibbd/?originalSubdomain=bd"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div className={styles.usefullLinks}>
@@ -34,7 +35,7 @@ const Footer = () => {
                     <p>Fresher Course</p>
                     <p>CAAB Part-147</p>
                 </div>
-                <div>
+                <div id='contuct'>
                     <h3>Contuct</h3>
                     <p>Address: Dhaka-1230, Bangladesh.</p>
                     <p>Email: info@aib.edu.bd</p>
