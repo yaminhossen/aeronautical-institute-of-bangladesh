@@ -75,10 +75,20 @@
   cursor: pointer;
 }
 
+.swipImage img {
+  width: 250px;
+  height: 200px;
+}
+
 .swipVideo {
   margin-top: 30px;
   margin-left: 50px;
   cursor: pointer;
+}
+
+.swipVideo img {
+  width: 400px;
+  height: 200px;
 }
 
 /* .navbar {

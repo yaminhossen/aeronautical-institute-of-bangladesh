@@ -41,13 +41,14 @@ const swiper = () => {
 
                         {images.map((image, index) => (
                             <div key={index}>
-                                <Image
+                                {/* <Image
                                     src={image.src}
                                     alt={image.alt}
                                     width={250}
                                     height={200}
                                     onClick={() => handleImageClick(image)}
-                                />
+                                /> */}
+                                <img src={image.src} alt="" onClick={() => handleImageClick(image)} />
                             </div>
                         ))}
                     </div>
@@ -58,13 +59,14 @@ const swiper = () => {
 
                         {images.slice(0, 3).map((image, index) => (
                             <div key={index}>
-                                <Image
+                                {/* <Image
                                     src={image.src}
                                     alt={image.alt}
                                     width={400}
                                     height={200}
                                     onClick={() => handleImageClick(image)}
-                                />
+                                /> */}
+                                <img src={image.src} alt="" onClick={() => handleImageClick(image)} />
                             </div>
                         ))}
                     </div>
