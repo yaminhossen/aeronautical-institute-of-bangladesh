@@ -28,7 +28,7 @@ const swiper = () => {
                 <div className={styles.swiper}>
                     <div className={styles.content}>
 
-                        <Image className={styles.swiperImg} src={selectedImage.src} alt={selectedImage.alt} width={500} height={500} />
+                        <img className={styles.swiperImg} src={selectedImage.src} alt={selectedImage.alt} />
                         <button onClick={() => setSelectedImage(null)}><i class="fa-solid fa-xmark"></i></button>
                     </div>
                 </div>
