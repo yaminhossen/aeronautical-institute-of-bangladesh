@@ -16,9 +16,9 @@ const slider = () => {
                             <li>Avionics Engineering</li>
                         </ul>
                     </div>
-                    <div>
-                        <button className={styles.btn1}>Click Here</button>
-                        <button className={styles.btn2}>Click Here</button>
+                    <div className={styles.sliderbtn}>
+                        <a href='#' className={styles.btn1}>Click Here</a>
+                        <a href='#' className={styles.btn2}>Click Here</a>
                     </div>
                 </div>
             </div>

@@ -14,27 +14,27 @@ const reviews = () => {
             <div className={styles.reviews}>
                 <div className={styles.review}>
                     <div className={styles.reviewImg}>
-                        <img src="/teacher (1).jpg" alt="" />
+                        <img src="/student (1).jpg" alt="" />
                     </div>
                     <div className={styles.reviewDetails}>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quod sequi eveniet natus odio cumque corrupti mollitia quisquam fugit fuga id labore, quas delectus dolorem voluptatum voluptate sapiente.</p>
+                        <p>Avionics courses can be challenging, but rewarding for students passionate about aviation and electronics. This is careers in the aviation and aerospace industries.</p>
                         <h3>Paul Druva</h3>
                         <div className={styles.reviewCourse}>
                             <p>Course</p>
-                            <p>wev developer</p>
+                            <p>Avionics</p>
                         </div>
                     </div>
                 </div>
                 <div className={styles.review}>
                     <div className={styles.reviewImg}>
-                        <img src="/teacher (2).jpg" alt="" />
+                        <img src="/student (2).jpg" alt="" />
                     </div>
                     <div className={styles.reviewDetails}>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quod sequi eveniet natus odio cumque corrupti mollitia quisquam fugit fuga id labore, quas delectus dolorem voluptatum voluptate sapiente.</p>
+                        <p>Aerospace courses cover a broad range of topics and rewarding for students interested in the field. They can prepare students for careers in aerospace engineering.</p>
                         <h3>Paul Druva</h3>
                         <div className={styles.reviewCourse}>
                             <p>Course</p>
-                            <p>wev developer</p>
+                            <p>Aerospace</p>
                         </div>
                     </div>
                 </div>

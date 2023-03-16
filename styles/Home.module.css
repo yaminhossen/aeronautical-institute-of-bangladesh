@@ -5,6 +5,9 @@
 
 .swipers {
   margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .swiper {
@@ -21,7 +24,7 @@
 .swipers h1 {
   text-align: center;
   margin: 50px 0;
-  font-family: sans-serif;
+  font-family: verdana;
   color: rgb(1, 1, 39);
 }
 
@@ -52,11 +55,13 @@
 
 .swipGallery {
   display: flex;
+  width: 80%;
 }
 
 .swipGallery h2 {
   display: grid;
   justify-content: center;
+  font-family: verdana;
   margin: 0;
 }
 
@@ -68,7 +73,6 @@
 
 .swipImage {
   margin-top: 30px;
-  margin-left: 150px;
   width: 50%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -77,6 +81,7 @@
 
 .swipImage img {
   width: 250px;
+  margin-right: 4px;
   height: 200px;
 }
 
@@ -175,6 +180,7 @@
   align-items: center;
   color: black;
   text-decoration: none;
+  padding: 10px 0;
 }
 
 
@@ -194,9 +200,10 @@
   text-decoration: none;
 }
 
-/* .ancor {
+.ancor {
   cursor: pointer;
-} */
+  color: black;
+}
 
 .linkbar {
   display: flex;
@@ -251,28 +258,33 @@
 
 }
 
-
+.sliderbtn {
+  margin-top: 40px;
+}
 
 .btn1 {
-  margin-left: px;
-  margin-top: 10px;
   padding: 15px 50px;
+  font-family: verdana;
   border: 2px solid white;
   font-size: medium;
   font-weight: 600;
   color: white;
+  text-decoration: none;
+  text-transform: uppercase;
   background-color: rgba(0, 0, 0, 0.153);
   transition-duration: .5s;
 }
 
 .btn2 {
   margin-left: 5px;
-  margin-top: 10px;
+  font-family: verdana;
+  text-transform: uppercase;
   padding: 15px 50px;
   border: 2px solid orange;
   font-size: medium;
   font-weight: 600;
   color: white;
+  text-decoration: none;
   background-color: orange;
   transition-duration: .5s;
 }
@@ -365,16 +377,19 @@
 
 
 .introBtn {
-  width: 200px;
+  width: 150px;
+  text-align: center;
   padding: 15px 40px;
   margin-top: 20px;
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
+  font-family: verdana;
   color: whitesmoke;
-
+  text-decoration: none;
   transition-duration: .5s;
   background-color: rgb(11, 3, 50);
+  border: 2px solid rgb(7, 1, 39);
 
 }
 
@@ -614,19 +629,25 @@
   color: orange;
 }
 
-.featuredInfo button {
-  margin-left: 40px;
-  padding: 18px 50px;
-  margin-top: 20px;
-  font-weight: 700;
-  background-color: orange;
-  border: none;
-  font-size: 14px;
-  text-transform: uppercase;
-  transition-duration: .5s;
+.featuredbtn {
+  margin-top: 40px;
 }
 
-.featuredInfo button:hover {
+.featuredInfo a {
+  margin-left: 40px;
+  padding: 15px 50px;
+  font-weight: 700;
+  background-color: orange;
+  border: 2px solid orange;
+  font-size: 14px;
+  font-family: verdana;
+  text-transform: uppercase;
+  transition-duration: .5s;
+  text-decoration: none;
+  color: rgb(1, 1, 31);
+}
+
+.featuredInfo a:hover {
   color: white;
   transition-duration: .5s;
 }
@@ -696,7 +717,7 @@
   text-align: center;
   font-size: 32px;
   font-weight: 700;
-  font-family: sans-serif;
+  font-family: verdana;
   color: rgb(3, 3, 69);
 
 }
@@ -720,7 +741,7 @@
 .courseInfo p {
   text-align: center;
   width: 70%;
-  font-family: sans-serif;
+  font-family: verdana;
   color: rgb(97, 110, 123);
 
 }
@@ -743,14 +764,14 @@
 
 .courseImage {
   width: 100%;
-  height: 250px;
+  height: 200px;
+  overflow: hidden;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
 
 .courseImg1 {
   width: 100%;
-  height: 100%;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
@@ -760,12 +781,10 @@
   background-color: rgb(228, 224, 224);
   padding: 15px 0;
   font-family: sans-serif;
-  /* font-weight: ; */
 }
 
 .courseTeacher {
   display: flex;
-  /* justify-content: space-evenly; */
   align-items: center;
   margin-left: 30px;
   margin-top: 30px;
@@ -791,6 +810,7 @@
   margin: 0;
   color: rgb(80, 78, 78);
   text-transform: uppercase;
+  font-family: verdana;
 }
 
 .courseIcon {
@@ -805,12 +825,17 @@
 .course h2 {
   margin-left: 30px;
   margin-top: 30px;
+  font-family: verdana;
+}
+
+.course a {
+  text-decoration: none;
   color: rgb(3, 3, 63);
 }
 
 .courseDetails {
   margin: 0 30px;
-  font-family: sans-serif;
+  font-family: verdana;
   color: gray;
 }
 
@@ -847,12 +872,14 @@
   background-color: rgb(243, 182, 70);
   padding: 10px 20px;
   border-radius: 20px;
+  font-family: serif;
   color: rgb(3, 3, 62);
   transition-duration: .5s;
   font-weight: 700;
+  cursor: pointer;
 }
 
-.courseEnroll:hover {
+.courseEnroll:hover a {
   color: white;
   transition-duration: .5s;
 }
@@ -869,7 +896,9 @@
   margin-top: 20px;
   color: rgb(2, 2, 51);
   border-radius: 5px;
-  font-family: sans-serif;
+  font-family: verdana;
+  text-transform: uppercase;
+  font-weight: 700;
   cursor: pointer;
   text-decoration: none;
   transition-duration: .5s;
@@ -978,11 +1007,6 @@
   overflow: hidden;
 }
 
-/* .frame {
-  position: relative;
-  overflow: hidden;
-} */
-
 .department img {
   width: 100%;
   height: 250px;
@@ -1011,7 +1035,7 @@
 }
 
 .departmentDetail button {
-  padding: 13px 15px;
+  padding: 15px 15px;
   border: none;
   text-transform: uppercase;
   font-weight: 700;
@@ -1055,7 +1079,8 @@
   margin-top: 20px;
   color: rgb(2, 2, 51);
   border-radius: 5px;
-  font-family: sans-serif;
+  font-family: "Proxima Nova", "Verdana", "Avenir Next";
+  font-weight: 700;
   cursor: pointer;
   text-decoration: none;
   transition-duration: .5s;
@@ -1078,7 +1103,7 @@
 
 .reviewsSection h1 {
   color: rgb(251, 253, 253);
-  font-family: sans-serif;
+  font-family: verdana;
   font-size: 32px;
 }
 
@@ -1102,7 +1127,7 @@
   margin-bottom: 40px;
   color: rgb(181, 180, 180);
   text-align: center;
-  font-family: sans-serif;
+  font-family: verdana;
 }
 
 .reviews {
@@ -1134,7 +1159,7 @@
 
 .reviewDetails {
   margin-left: 20px;
-  font-family: sans-serif;
+  font-family: verdana;
   color: whitesmoke;
   color: rgb(158, 157, 157);
 
@@ -1148,6 +1173,7 @@
 .reviewDetails h3 {
   margin: 20px 0;
   color: rgb(177, 176, 176);
+  font-family: verdana;
 }
 
 .reviewCourse {
@@ -1155,7 +1181,7 @@
   justify-content: space-between;
   margin-right: 40px;
   color: orange;
-  font-family: sans-serif;
+  font-family: verdana;
 }
 
 /* Notice section */
@@ -1178,7 +1204,7 @@
 
 .noticeTitle {
   margin-bottom: 40px;
-  font-family: sans-serif;
+  font-family: verdana;
   font-size: 32px;
   color: rgb(6, 3, 68);
   text-transform: uppercase;
@@ -1187,34 +1213,34 @@
 .noticeHeading {
   display: flex;
   justify-content: space-between;
-  /* gap: 20px; */
+  font-family: verdana;
 }
 
 .headingGeneral {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: rgb(80, 80, 250);
-  /* text-transform: uppercase; */
-  font-family: sans-serif;
+  background-color: rgb(16, 3, 49);
+  font-family: verdana;
+  color: white;
 }
 
 .headingNews {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: rgb(242, 244, 131);
-  /* text-transform: uppercase; */
-  font-family: sans-serif;
+  background-color: rgb(36, 26, 2);
+  font-family: verdana;
+  color: white;
 }
 
 .headingDownloads {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: rgb(242, 100, 152);
-  /* text-transform: uppercase; */
-  font-family: sans-serif;
+  background-color: rgb(5, 2, 36);
+  font-family: verdana;
+  color: white;
 }
 
 .headingGeneral h2 {
@@ -1231,47 +1257,108 @@
   display: flex;
   align-items: center;
   /* justify-content: start; */
+  font-family: verdana;
   justify-content: flex-start;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   box-shadow: rgb(226, 226, 227) 1px 2px 30px .1px;
 
 }
 
 .general {
-  /* box-shadow: gray 1px 2px 10px .1px; */
   height: 500px;
   overflow-y: scroll;
-  scroll-margin-right: 80px;
+  margin: 5px 10px;
+}
+
+.general::-webkit-scrollbar {
+  width: 8px;
+}
+
+.general::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.general::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.general::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.generalNews {
+  padding: 5px 8px;
 }
 
 .news {
-  /* box-shadow: gray 1px 2px 10px .1px; */
   height: 500px;
   overflow-y: scroll;
+  margin: 5px 10px;
+}
+
+.news::-webkit-scrollbar {
+  width: 8px;
+}
+
+.news::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.news::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.news::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.newsNews {
+  padding: 5px 8px;
 }
 
 .downloads {
-  /* box-shadow: gray 1px 2px 10px .1px; */
   height: 500px;
   overflow-y: scroll;
+  margin: 5px 10px;
+}
+
+.downloads::-webkit-scrollbar {
+  width: 8px;
+}
+
+.downloads::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.downloads::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.downloads::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.downloadsNews {
+  padding: 5px 8px;
 }
 
 .noticeHead {
-  /* border: 1px solid red; */
   width: 150px;
   background-color: rgba(208, 209, 239, 0.821);
-  padding: 5px;
+  padding: 8px;
+  border-radius: 5px;
 }
 
 .noticeHead h2 {
   margin: 0;
-  /* border: 2px solid red; */
+  font-size: 18px;
   color: rgb(4, 4, 95);
 }
 
 .noticeHead p {
-  /* border: 1px solid red; */
   margin: 0;
+  font-size: 16px;
+  line-height: 26px;
 
 }
 
@@ -1300,13 +1387,13 @@
 
 .noticeButton a {
   text-decoration: none;
-  font-size: 20px;
   background-color: whitesmoke;
-
+  font-family: verdana;
+  font-weight: 700;
   border: 2px solid rgb(1, 1, 46);
   color: rgb(1, 1, 46);
 
-  padding: 10px 40px;
+  padding: 15px 40px;
   border-radius: 5px;
   transition-duration: .5s;
 }
@@ -1340,7 +1427,7 @@
 }
 
 .registrationTitle {
-  font-family: sans-serif;
+  font-family: verdana;
   font-size: 30px;
   color: rgb(2, 2, 47);
 }
@@ -1375,16 +1462,28 @@
   align-items: center;
 }
 
-.registrationSubmit input {
+.registrationSubmit a {
   display: flex;
   width: 60%;
   justify-content: center;
-  padding: 15px 0;
+  border-radius: 5px;
   text-transform: uppercase;
   font-weight: 900;
   color: rgb(79, 78, 78);
   transition-duration: .5s;
   background-color: rgb(254, 255, 255);
+  text-decoration: none;
+  font-family: verdana;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.registrationSubmit input {
+  margin: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition-duration: .5s;
+  font-family: verdana;
 }
 
 .registrationSubmit input:hover {
@@ -1547,7 +1646,10 @@
 .locationInfo {
   margin-top: 30px;
   color: whitesmoke;
+  font-family: lucida sans;
 }
+
+
 
 .locationHotline {
   display: flex;
@@ -1560,7 +1662,7 @@
 
 
 .locationInfo h2 {
-  font-family: serif;
+  font-family: verdana;
   text-transform: uppercase;
   font-size: 30px;
 }
@@ -1587,7 +1689,7 @@
   gap: 30px;
   justify-content: space-between;
   padding: 80px 0;
-  font-family: sans-serif;
+  font-family: verdana;
 }
 
 
@@ -1605,7 +1707,7 @@
 
 .footerInfo h3 {
   text-transform: uppercase;
-  font-family: sans-serif;
+  font-family: verdana;
 }
 
 .footerLogo h3 {
@@ -1616,11 +1718,14 @@
 }
 
 .footerInfo i {
-  padding: 5px 5px;
+  padding: 8px 5px;
   margin: 5px;
-  font-size: 22px;
+  font-size: 18px;
   background-color: rgba(87, 81, 81, 0.434);
   color: rgb(243, 200, 8);
+  width: 30px;
+  text-align: center;
+  border-radius: 5px;
 }
 
 .usefullLinks {
@@ -1632,7 +1737,8 @@
 .footerInfo a {
   text-decoration: none;
   color: rgb(169, 168, 167);
-  font-family: sans-serif;
+  /* font-family: verdana; */
+  width: 60px;
 
 }
 
@@ -1643,6 +1749,7 @@
 .footerLinks p {
   text-decoration: none;
   margin: 0;
+  font-family: verdana;
 }
 
 .footerBorder {
@@ -1655,6 +1762,7 @@
   display: flex;
   justify-content: center;
   color: rgb(232, 227, 227);
+  font-family: verdana;
 }
 
 .copyright {

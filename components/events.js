@@ -23,156 +23,162 @@ const events = () => {
                 </div>
                 <div className={styles.noticeNewses}>
                     <div className={styles.general}>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                        <div className={styles.generalNews}>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
-                        </div>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
-                        </div>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
-                        </div>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
-                        </div>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
-                        </div>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
-                        </div>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                         </div>
                     </div>
                     <div className={styles.news}>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                        <div className={styles.newsNews}>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
-                        </div>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
-                        </div>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
-                        </div>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
-                        </div>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
-                        </div>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
-                        </div>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                         </div>
                     </div>
                     <div className={styles.downloads}>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                        <div className={styles.downloadsNews}>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
-                        </div>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
-                        </div>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
-                        </div>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
-                        </div>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
-                        </div>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
-                        </div>
-                        <div className={styles.noticeNews}>
-                            <div className={styles.noticeHead}>
-                                <h2>24, Jun</h2>
-                                <p>Thursday <br /> 2023</p>
+                            <div className={styles.noticeNews}>
+                                <div className={styles.noticeHead}>
+                                    <h2>24, Jun</h2>
+                                    <p>Thursday <br /> 2023</p>
+                                </div>
+                                <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                             </div>
-                            <p className={styles.noticeTail}><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, soluta.</a></p>
                         </div>
                     </div>
                 </div>

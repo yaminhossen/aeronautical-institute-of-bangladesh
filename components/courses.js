@@ -5,7 +5,7 @@ import Course from './course';
 const arrays = [
     { id: 1, name: 'MUNIL DRUVA', course: 'Aviation Managment', img1: '/teacher (1).jpg', img2: '/course (2).jpg', price: 22, details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eligendi voluptate expedita. Asperiores' },
     { id: 2, name: 'John Bravo', course: 'Cabin Crew & Airhostess', img1: '/teacher (2).jpg', img2: '/course (3).jpg', price: 22, details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eligendi voluptate expedita. Asperiores' },
-    { id: 3, name: 'Akua Paul', course: 'Reservation & e-Ticketing', img1: '/teacher (3).jpg', img2: '/course (1).jpg', price: 22, details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eligendi voluptate expedita. Asperiores' },
+    { id: 3, name: 'Akua Paul', course: 'Reservation & Ticketing', img1: '/teacher (3).jpg', img2: '/course (1).jpg', price: 22, details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eligendi voluptate expedita. Asperiores' },
 ]
 const courses = () => {
     return (

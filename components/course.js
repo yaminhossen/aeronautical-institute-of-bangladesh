@@ -11,7 +11,7 @@ const course = ({ array }) => {
             <div className={styles.coursePrice}>PRICE: {price} $</div>
             <div className={styles.courseTeacher}>
                 <div className={styles.courseTeacherImg}>
-                    <img src={img1} alt="" />
+                    <a href="#"><img src={img1} alt="" /></a>
                 </div>
                 <div>
                     <h4>{name}</h4>
@@ -23,7 +23,7 @@ const course = ({ array }) => {
                     </div>
                 </div>
             </div>
-            <h2>{course}</h2>
+            <h2><a href="#">{course}</a></h2>
             <div>
 
                 <div className={styles.courseDetails}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque illo magni repudiandae, cum ab, assumenda harum labore.</div>
@@ -38,8 +38,8 @@ const course = ({ array }) => {
                         <i class="fa-regular fa-clock"></i> 16:00
                     </div>
                 </div>
-                <div>
-                    <button className={styles.courseEnroll}>ENROLL NOW</button>
+                <div className={styles.courseEnroll}>
+                    <a href='#'>ENROLL NOW</a>
                 </div>
             </div>
         </div>

@@ -17,7 +17,9 @@ const featured = () => {
                     <p><span className={styles.featuredIcon}><i class="fa-solid fa-check-double"></i></span> Testing Training Included.</p>
                     <p><span className={styles.featuredIcon}><i class="fa-solid fa-check-double"></i></span> Course Content Designed By Considering Current Software Testing</p>
                     <p><span className={styles.featuredIcon}><i class="fa-solid fa-check-double"></i></span> Practical Assignments At The End Of Every Session.</p>
-                    <button>Enroll now</button>
+                    <div className={styles.featuredbtn}>
+                        <a href='#'>Enroll now</a>
+                    </div>
                     <div className={styles.featuredBorder}></div>
                     <div className={styles.featuredAuthor}>
                         <div>

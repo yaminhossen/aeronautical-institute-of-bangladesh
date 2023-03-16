@@ -46,7 +46,7 @@ const Footer = () => {
             <div className={styles.footerBorder}></div>
             <div className={styles.copyrightInfo}>
                 <div className={styles.copyright}>
-                    <p>&copy; Copyright 2023.All Rights Reserved By <span className={styles.techpark}>Techpark Ltd.</span></p>
+                    <p>&copy; Copyright 2023.All Rights Reserved By <span className={styles.techpark}>AIB</span></p>
                     <div className={styles.terms}>
                         <p>TERMS OF USER</p>
                         <div className={styles.termsBorder}></div>

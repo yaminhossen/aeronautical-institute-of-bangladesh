@@ -28,7 +28,7 @@ const registration = () => {
                         <input type="number" name="number" id="" placeholder='Phone' />
                         <br />
                         <div className={styles.registrationSubmit} >
-                            <input type="submit" value="Register Now" />
+                            <a href="#"><input type="submit" value="Register Now" /></a>
                         </div>
                     </form>
 
